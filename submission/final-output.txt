@@ -1,0 +1,58 @@
+# =============================================================================
+# FINAL OUTPUT - Linux Command Line Activities
+# Paste your REAL output under each heading. Do not include private data.
+# =============================================================================
+
+Environment
+-----------
+Distribution : [FILL IN]
+Kernel       : [FILL IN]
+User         : [FILL IN]
+
+Activity 1 - Navigation
+-----------------------
+[PASTE OUTPUT OF: pwd ; ls -la ; ls -ld /tmp/practice_dir]
+
+Activity 2 - File creation & editing
+------------------------------------
+[PASTE OUTPUT OF: cat demo.txt]
+
+Activity 3 - File permissions
+-----------------------------
+ls -l before chmod : [PASTE]
+ls -l after chmod  : [PASTE]
+./script.sh output : [PASTE]
+
+Activity 4 - File operations
+----------------------------
+[PASTE OUTPUT OF: ls -l /tmp/practice_dir/]
+
+Activity 5 - User & group management
+------------------------------------
+[PASTE OUTPUT OF: whoami ; w (or who) ; id student1]
+
+Activity 6 - Process management
+-------------------------------
+[PASTE OUTPUT OF: jobs ; ps aux | grep sleep (after kill)]
+
+Activity 7 - Disk usage & searching
+-----------------------------------
+[PASTE OUTPUT OF: df -h ; free -h ; find ~ -name "*.sh" ; grep -r "Linux" /tmp/practice_dir/ --include="*.txt"]
+
+Activity 8 - Archiving & compression
+------------------------------------
+[PASTE OUTPUT OF: ls -lh backup.tar* ; ls -R extract_test ; diff result]
+
+Activity 9 - Networking basics
+------------------------------
+[PASTE OUTPUT OF: ip a (redacted) ; ping -c 3 google.com ; ss -tulnp ; hostname (redacted if needed)]
+
+Activity 10 - System monitoring & logs
+--------------------------------------
+tail -n 10 /var/log/dmesg (or the fallback you used and why): [PASTE]
+uptime                                                         : [PASTE]
+Top CPU process seen in `top` (name / PID / %CPU)              : [FILL IN]
+
+Notes / deviations from the task (e.g. fallbacks used, sudo needed where not expected)
+-------------------------------------------------------------------------------------
+[WRITE NOTES HERE]

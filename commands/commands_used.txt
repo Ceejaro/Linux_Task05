@@ -1,0 +1,84 @@
+    
+  182  cd ~
+  183  pwd
+  184  sudo -v
+  185  pwd
+  186  ls -la
+  187  cd /tmp
+  188  mkdir practice_dir
+  189  cd ~
+  190  pwd
+  191  touch demo.txt
+  192  ls -l demo.txt
+  193  echo "Linux is powerful" > demo.txt
+  194  nano demo.txt
+  195  cat demo.txt
+  196  touch script.sh
+  197  echo "Hello Linux" > script.sh
+  198  ls -l script.sh
+  199  chmod u+x script.sh
+  200  ls -l script.sh
+  201  ./script.sh
+  202  cat script.sh
+  203  ./script.sh
+  204  sudo ./script.sh
+  205  clear
+  206  cp demo.txt /tmp/practice_dir
+  207  mv script.sh /tmp/practice_dir
+  208  ls -l /tmp/practice_dir
+  209  ls -l ~
+  210  mv demo.txt notes.txt
+  211  ls -l demo.txt notes.txt
+  212  rm notes.txt
+  213  ls notes.txt
+  214  clear
+  215  whoami
+  216  who
+  217  w
+  218  sudo useradd -m student1
+  219  sudo usermod -aG sudo student1
+  220  id student1
+  221  sleep 500 &
+  222  jobs
+  223  fg
+  224  bg
+  225  jobs -l
+  226  kill 48144
+  227  ps aux | grep sleep
+  228  df -h
+  229  free -h
+  230  find ~ -name "*.sh"
+  231  grep -r "Linux" /tmp/practice_dir/ --include="*.txt"
+  232  mkdir backup_test
+  233  mkdir backup_folder
+  234  echo "sample one" > backup_folder/file1.txt
+  235  echo "sample two" > backup_folder/file2.txt
+  236  ls -l backup_folder
+  237  tar -cvf backup.tar backup_folder
+  238  gzip backup_tar
+  239  gzip backup.tar
+  240  ls -lh backup.tar*
+  241  mkdir extract_test
+  242  tar -xzvf backup.tar.gz -C extract_test
+  243  ls -R extract_test
+  244  diff -r backup_folder extract_test/backup_folder
+  245  ip a
+  246  ping -c 3 google.com
+  247  ss -tulnp
+  248  hostname
+  249  tail -n 10 /var/log/dmesg
+  250  journalctl -k -n 10
+  251  tail -f /var/log/dmesg
+  252  uptime
+  253  top
+  254  bash scripts/verify.sh
+  255  bash scripts/generate-gallery.sh
+  256  cd Downloads
+  257  unzip linux-command-line-activities.zip -d ~
+  258  ls
+  259  cd /media/sf_Cybersecurity_Lab
+  260  ls
+  261  cd Linux_Task05
+  262  ls
+  263  bash scripts/verify.sh
+  264  bash scripts/generate-gallery.sh

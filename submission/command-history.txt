@@ -1,0 +1,7 @@
+# =============================================================================
+# COMMAND HISTORY - Linux Command Line Activities
+# Replace everything below this header with the commands YOU actually ran.
+# See submission/README.md -> "Capturing command history".
+# =============================================================================
+
+[PASTE COMMAND HISTORY HERE]

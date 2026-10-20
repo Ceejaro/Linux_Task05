@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary / scratch files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Lab artifacts (Activity 8). Do the lab in your home directory, not inside this repo,
+# but if you ever do, these will not be committed by accident.
+backup_test/
+extract_test/
+*.tar
+*.tar.gz
+*.tgz
+
+# Never commit secrets or private data
+.env
+*.key
+*.pem
+
+# NOTE: screenshots (*.png), command-history.txt, final-output.txt and evidence/terminal-output/*.txt
+# are intentionally NOT ignored - they are your documentation.
